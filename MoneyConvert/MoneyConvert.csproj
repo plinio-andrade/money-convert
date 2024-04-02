@@ -4,6 +4,26 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-  </PropertyGroup>
 
+    <PackageId>MoneyConvert</PackageId>
+    <Version>1.0.0</Version>
+    <!-- <icon></icon> -->
+    <License>MIT</License>
+    <Authors>Plinio Andrade</Authors>
+    <Company>plinioandrade</Company>
+    <PackageDescription>Extension to convert decimal to integer</PackageDescription>
+    <Description>Extension to convert decimal to integer</Description>
+    <RepositoryUrl>https://github.com/plinio-andrade/money-convert</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/plinio-andrade/money-convert</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageTags>money;int;decimal;converter</PackageTags>
+    <ReleaseNotes>Extension to convert decimal to integer</ReleaseNotes>
+    <Title>MoneyConvert</Title>
+    <Summary>Extension to convert decimal to integer</Summary>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <None Include="..\Media\icon.png" Pack="true" PackagePath="\" />
+  </ItemGroup>
 </Project>
